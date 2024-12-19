@@ -1,1 +1,5 @@
-const sidebar = document.querySelector("#sidebar")
+const sidebar = document.getElementById('sidebar')
+
+function toggleSidebar(){
+    sidebar.classList.toggle('show')
+}

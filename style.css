@@ -13,25 +13,25 @@ body{
     "sidebar footer" ;
 }
 nav{
-    
-    position: sticky;
+    height: 3rem;
     top: 0;
+    position: sticky;
     grid-area: navbar;
     background-color: orangered;
-    color: whitesmoke;
-    padding: 1em;
+    color: white;
 }
 
 aside{
-    height: calc(100vh - 50.4px);
-    top: 50.4px;
+    height: calc(100vh - 3rem);
+    top: 3rem;
     position: sticky;
     align-self: start;
     grid-area: sidebar;
-    background-color: gray;
+    background-color: rgb(115, 89, 24);
 }
 
 main{
+    background-color: darkorange;
     grid-area: main;
 }
 
@@ -48,7 +48,7 @@ footer{
     }
     aside{
         position: fixed;
-        width: 300;
+        width: 300px;
         display: none;
     }
     .show{
